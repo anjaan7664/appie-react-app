@@ -11,8 +11,8 @@ import ServicesHomeOne from './ServicesHomeOne';
 import TrafficHomeOne from './TrafficHomeOne';
 import WorkPartHomeEight from './WorkPartHomeEight';
 import CounterArea from './CounterArea';
-import SignupHomeEight from './SignupHomeEight';
-import TestimonialHomeEight from './TestimonialHomeEight';
+import ProjectHomeOne from '../HomeOne/ProjectHomeOne';
+import HeroHomeSix from './HeroHomeSix';
 
 function HomeOne() {
     const [drawer, drawerAction] = useToggle(false);
@@ -24,14 +24,12 @@ function HomeOne() {
             <HeroHomeOne />
             <WorkPartHomeEight />
             <CounterArea />
-
+            <TrafficHomeOne />
             <ServicesHomeOne />
             <FeaturesHomeOne />
-            <TrafficHomeOne />
             <FaqHomeOne />
-            <SignupHomeEight className="appie-signup-8-area" />
-            <TestimonialHomeEight />
-
+            <HeroHomeSix />
+            <ProjectHomeOne />
             <FooterHomeOne />
             <BackToTop />
         </>
